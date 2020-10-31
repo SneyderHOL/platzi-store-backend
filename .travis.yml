@@ -1,0 +1,26 @@
+language: node_js
+cache:
+  directories:
+    - node_modules
+    - ~/.npm
+node_js:
+  - '12'
+git:
+  - depth: 3
+script:
+  - yarn test
+notifications:
+  email:
+    recipients:
+      - 1507@holbertonschool.com
+      - sneyd3r@gmail.com
+    on_success: always
+    on_failure: always
+deploy:
+  provider: heroku
+  skip_cleanup: true
+  keep_history: true
+  api-key: d6757d18-ded9-4812-b29d-47ec35e8cf61
+  app: platstore-backend
+  on:
+    repo: SneyderHOL/platzi-store-backend
