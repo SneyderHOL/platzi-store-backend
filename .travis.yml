@@ -20,7 +20,8 @@ deploy:
   provider: heroku
   skip_cleanup: true
   keep_history: true
-  api-key: d6757d18-ded9-4812-b29d-47ec35e8cf61
+  api-key:
+    secure: "ZLzXidFsrxpkZuhP/OY/XuLzKaaduI0BZm9qLa/3+0iOxO/cV3ZRXpStH1U5uRWRNhsFdvDMc6xDx7iac5ig6r8OeqkTa2Y4HN5Qhz+oAUPUG+RhCMj7dcEWmGk9AvEIghjkP/qgIVJgMJvvqw1jHFRyKtQ5BuSyXs8tesvUGCuxekau+c2SMEcFOjR7GZJI7sQDD31aAffI2lPWTTLMU70HrZwqb9hdKU/xrC8BZNafxhTE9i1Im4GS3lmbnPSzcRvNGf4yHnscfDKRm9MvofpTZ5vJ9EqHd5Fldk894KNP5w5BwnuWpTqzgTlS0/cBINEfv8VE8zkpI4IcvH6iMP9umFZP0Sz4C1rbg3Yb0uBvjcau3P45HCsq1cNzUmnCS+B4WwK1iriqkxkCYxTGyIoDIBsZjYAvaoR8WLC/etiuDu1qFK05f3gnbAFWS3Zs4GRPnbVCmpwc6fkxorlnGHiX7Upmx4uc54XFZpdajRI7G8Kz6CLuICESnB7CHOKzaxV3ifrvmQ7Jit1uLE4d/YnOcOWk0MS98zoDvswQr5aztTLhl5i4y5tyCgzxXLgxxak+OcYrYxWOyIHDlD1lba0hqBilyJ/lOT1PgxnPfbPXFpCm0HJ7MswicKrxqc7QkpxYYiIraf2CX56RZHfps8rnde9Xo8JRPeetznORejg="
   app: platstore-backend
   on:
     repo: SneyderHOL/platzi-store-backend
